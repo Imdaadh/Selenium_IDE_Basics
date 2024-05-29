@@ -1,0 +1,236 @@
+{
+  "id": "cee90ec1-a58d-4aaf-83e2-a58f07a94ac1",
+  "version": "2.0",
+  "name": "Selenium Basic",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "7c386b54-364d-49cb-a499-7afa911e89dc",
+    "name": "SearchTest",
+    "commands": [{
+      "id": "557c9dbc-ece4-4d01-9d2b-fe94a333671c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4747ce4a-3a94-469c-bce2-1c032c6ffcae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "803x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cedaf084-fd94-4ef1-be76-720450e22cde",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1379e9-bd2d-4a03-b384-48c57ee28db9",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium hq documentation"
+    }, {
+      "id": "7284f23b-8a22-4919-b29b-042294e6bd64",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55dd1a3f-5f5f-4048-97ba-d3f13058f3b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'The Selenium Browser Automation Project')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3887316d-4683-4fc7-a5ca-0c55891fdaaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb-item > a",
+      "targets": [
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Documentation')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/')])[146]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67bf097f-bde4-4a45-9fa8-f076a4bac783",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb-item > a",
+      "targets": [
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Documentation')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/')])[146]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8a0239-da47-40e5-872d-e30fbb5104a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Writing your first Selenium script",
+      "targets": [
+        ["linkText=Writing your first Selenium script", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Writing your first Selenium script')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/webdriver/getting_started/first_script/')])[2]", "xpath:href"],
+        ["xpath=//p[5]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Writing your first Selenium script')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a172175-65f7-4af0-a479-ec37df1c6ee7",
+    "name": "ScrollTest",
+    "commands": [{
+      "id": "e9d93cc5-9cdb-4f7e-b38a-df8b638c12fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24900605-cedb-40fa-8fea-c28f7dd7eb61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "803x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4879d90-b30a-4d8d-b8d7-97ddc96a8245",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be4776dd-90bc-4f39-ad29-ca24d614b063",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium hq documentation"
+    }, {
+      "id": "b8547437-10d3-4122-a47e-83ab2a45ca70",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6127f694-fb54-4e87-bcb8-61353d42dc6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'The Selenium Browser Automation Project')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa37a909-004e-4399-adb1-d5c8ac2224a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb-item > a",
+      "targets": [
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Documentation')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/')])[146]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb21460a-fff7-4388-bba7-d4f0882277cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb-item > a",
+      "targets": [
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Documentation')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/')])[146]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9841be57-a579-4f69-9452-917143444ac0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Writing your first Selenium script",
+      "targets": [
+        ["linkText=Writing your first Selenium script", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Writing your first Selenium script')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/webdriver/getting_started/first_script/')])[2]", "xpath:href"],
+        ["xpath=//p[5]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Writing your first Selenium script')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "097a97df-d0f4-4863-8d20-973ba2835737",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollBy(0,1500)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "46e34e06-83b9-4e60-9341-4cff5ba4d542",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
